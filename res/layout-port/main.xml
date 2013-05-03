@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    android:weightSum="1" >
+
+  <rishi.projects.UpsideDownButton
+      	android:layout_width="match_parent"
+      	android:layout_height="0dip"
+      	android:text="Start"
+      	android:textSize="75dp"
+        android:id="@+id/player1"
+        android:background="#3364c2"
+     	android:layout_weight="0.5"
+     	android:textColor="#44c400"
+       />
+  
+  <Button
+      	android:layout_width="match_parent"
+      	android:layout_height="0dip"
+      	android:text="Start"
+      	android:textSize="75dp"
+        android:id="@+id/player2"
+        android:background="#f7d72b"
+        android:textColor="#f31900"
+     	android:layout_weight="0.5"
+     	
+       />
+
+</LinearLayout>
